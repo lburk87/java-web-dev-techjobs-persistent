@@ -15,8 +15,12 @@ import java.util.Optional;
 @RequestMapping("employers")
 public class EmployerController {
 
+    private final EmployerRepository employerRepository;
+
     @Autowired
-    private EmployerRepository employerRepository;
+    public EmployerController(EmployerRepository employerRepository) {
+        this.employerRepository = employerRepository;
+    }
 
 
     @GetMapping("add")
@@ -31,6 +35,8 @@ public class EmployerController {
 
         if (errors.hasErrors()) {
             return "employers/add";
+        } else {
+            employerRepository.save(newEmployer);
         }
 
         return "redirect:";
