@@ -15,13 +15,10 @@ import java.util.Optional;
 @RequestMapping("employers")
 public class EmployerController {
 
-    private final EmployerRepository employerRepository;
-
     @Autowired
-    public EmployerController(EmployerRepository employerRepository) {
-        this.employerRepository = employerRepository;
-    }
+    private EmployerRepository employerRepository;
 
+    public EmployerController() {}
 
     @GetMapping("add")
     public String displayAddEmployerForm(Model model) {
@@ -36,14 +33,15 @@ public class EmployerController {
         if (errors.hasErrors()) {
             return "employers/add";
         } else {
+            model.addAttribute(newEmployer);
             employerRepository.save(newEmployer);
         }
 
-        return "redirect:";
+        return "redirect:../";
     }
 
     @GetMapping("view/{employerId}")
-    public String displayViewEmployer(Model model, @PathVariable int employerId) {
+    public String displayViewEmployer(Model model, @PathVariable(required = false) int employerId) {
 
         Optional optEmployer = employerRepository.findById(employerId);
         if (optEmployer.isPresent()) {
