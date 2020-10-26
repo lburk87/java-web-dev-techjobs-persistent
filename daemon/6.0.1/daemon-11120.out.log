@@ -168,3 +168,89 @@ Hibernate: select jobs0_.jobs_id as jobs_id5_1_0_, jobs0_.id as id1_1_0_, jobs0_
 Hibernate: select jobs0_.jobs_id as jobs_id5_1_0_, jobs0_.id as id1_1_0_, jobs0_.id as id1_1_1_, jobs0_.name as name2_1_1_, jobs0_.employer_id as employer4_1_1_, jobs0_.skills as skills3_1_1_, employer1_.id as id1_0_2_, employer1_.name as name2_0_2_, employer1_.location as location3_0_2_ from job jobs0_ left outer join employer employer1_ on jobs0_.employer_id=employer1_.id where jobs0_.jobs_id=?
 Hibernate: select jobs0_.jobs_id as jobs_id5_1_0_, jobs0_.id as id1_1_0_, jobs0_.id as id1_1_1_, jobs0_.name as name2_1_1_, jobs0_.employer_id as employer4_1_1_, jobs0_.skills as skills3_1_1_, employer1_.id as id1_0_2_, employer1_.name as name2_0_2_, employer1_.location as location3_0_2_ from job jobs0_ left outer join employer employer1_ on jobs0_.employer_id=employer1_.id where jobs0_.jobs_id=?
 Hibernate: select employer0_.id as id1_0_0_, employer0_.name as name2_0_0_, employer0_.location as location3_0_0_, jobs1_.jobs_id as jobs_id5_1_1_, jobs1_.id as id1_1_1_, jobs1_.id as id1_1_2_, jobs1_.name as name2_1_2_, jobs1_.employer_id as employer4_1_2_, jobs1_.skills as skills3_1_2_, employer2_.id as id1_0_3_, employer2_.name as name2_0_3_, employer2_.location as location3_0_3_ from employer employer0_ left outer join job jobs1_ on employer0_.id=jobs1_.jobs_id left outer join employer employer2_ on jobs1_.employer_id=employer2_.id where employer0_.id=?
+Hibernate: select employer0_.id as id1_0_, employer0_.name as name2_0_, employer0_.location as location3_0_ from employer employer0_
+Hibernate: select jobs0_.jobs_id as jobs_id5_1_0_, jobs0_.id as id1_1_0_, jobs0_.id as id1_1_1_, jobs0_.name as name2_1_1_, jobs0_.employer_id as employer4_1_1_, jobs0_.skills as skills3_1_1_, employer1_.id as id1_0_2_, employer1_.name as name2_0_2_, employer1_.location as location3_0_2_ from job jobs0_ left outer join employer employer1_ on jobs0_.employer_id=employer1_.id where jobs0_.jobs_id=?
+Hibernate: select jobs0_.jobs_id as jobs_id5_1_0_, jobs0_.id as id1_1_0_, jobs0_.id as id1_1_1_, jobs0_.name as name2_1_1_, jobs0_.employer_id as employer4_1_1_, jobs0_.skills as skills3_1_1_, employer1_.id as id1_0_2_, employer1_.name as name2_0_2_, employer1_.location as location3_0_2_ from job jobs0_ left outer join employer employer1_ on jobs0_.employer_id=employer1_.id where jobs0_.jobs_id=?
+Hibernate: select jobs0_.jobs_id as jobs_id5_1_0_, jobs0_.id as id1_1_0_, jobs0_.id as id1_1_1_, jobs0_.name as name2_1_1_, jobs0_.employer_id as employer4_1_1_, jobs0_.skills as skills3_1_1_, employer1_.id as id1_0_2_, employer1_.name as name2_0_2_, employer1_.location as location3_0_2_ from job jobs0_ left outer join employer employer1_ on jobs0_.employer_id=employer1_.id where jobs0_.jobs_id=?
+Hibernate: select jobs0_.jobs_id as jobs_id5_1_0_, jobs0_.id as id1_1_0_, jobs0_.id as id1_1_1_, jobs0_.name as name2_1_1_, jobs0_.employer_id as employer4_1_1_, jobs0_.skills as skills3_1_1_, employer1_.id as id1_0_2_, employer1_.name as name2_0_2_, employer1_.location as location3_0_2_ from job jobs0_ left outer join employer employer1_ on jobs0_.employer_id=employer1_.id where jobs0_.jobs_id=?
+Hibernate: select jobs0_.jobs_id as jobs_id5_1_0_, jobs0_.id as id1_1_0_, jobs0_.id as id1_1_1_, jobs0_.name as name2_1_1_, jobs0_.employer_id as employer4_1_1_, jobs0_.skills as skills3_1_1_, employer1_.id as id1_0_2_, employer1_.name as name2_0_2_, employer1_.location as location3_0_2_ from job jobs0_ left outer join employer employer1_ on jobs0_.employer_id=employer1_.id where jobs0_.jobs_id=?
+Hibernate: select jobs0_.jobs_id as jobs_id5_1_0_, jobs0_.id as id1_1_0_, jobs0_.id as id1_1_1_, jobs0_.name as name2_1_1_, jobs0_.employer_id as employer4_1_1_, jobs0_.skills as skills3_1_1_, employer1_.id as id1_0_2_, employer1_.name as name2_0_2_, employer1_.location as location3_0_2_ from job jobs0_ left outer join employer employer1_ on jobs0_.employer_id=employer1_.id where jobs0_.jobs_id=?
+Hibernate: select jobs0_.jobs_id as jobs_id5_1_0_, jobs0_.id as id1_1_0_, jobs0_.id as id1_1_1_, jobs0_.name as name2_1_1_, jobs0_.employer_id as employer4_1_1_, jobs0_.skills as skills3_1_1_, employer1_.id as id1_0_2_, employer1_.name as name2_0_2_, employer1_.location as location3_0_2_ from job jobs0_ left outer join employer employer1_ on jobs0_.employer_id=employer1_.id where jobs0_.jobs_id=?
+Hibernate: select jobs0_.jobs_id as jobs_id5_1_0_, jobs0_.id as id1_1_0_, jobs0_.id as id1_1_1_, jobs0_.name as name2_1_1_, jobs0_.employer_id as employer4_1_1_, jobs0_.skills as skills3_1_1_, employer1_.id as id1_0_2_, employer1_.name as name2_0_2_, employer1_.location as location3_0_2_ from job jobs0_ left outer join employer employer1_ on jobs0_.employer_id=employer1_.id where jobs0_.jobs_id=?
+Hibernate: select jobs0_.jobs_id as jobs_id5_1_0_, jobs0_.id as id1_1_0_, jobs0_.id as id1_1_1_, jobs0_.name as name2_1_1_, jobs0_.employer_id as employer4_1_1_, jobs0_.skills as skills3_1_1_, employer1_.id as id1_0_2_, employer1_.name as name2_0_2_, employer1_.location as location3_0_2_ from job jobs0_ left outer join employer employer1_ on jobs0_.employer_id=employer1_.id where jobs0_.jobs_id=?
+Hibernate: select employer0_.id as id1_0_0_, employer0_.name as name2_0_0_, employer0_.location as location3_0_0_, jobs1_.jobs_id as jobs_id5_1_1_, jobs1_.id as id1_1_1_, jobs1_.id as id1_1_2_, jobs1_.name as name2_1_2_, jobs1_.employer_id as employer4_1_2_, jobs1_.skills as skills3_1_2_, employer2_.id as id1_0_3_, employer2_.name as name2_0_3_, employer2_.location as location3_0_3_ from employer employer0_ left outer join job jobs1_ on employer0_.id=jobs1_.jobs_id left outer join employer employer2_ on jobs1_.employer_id=employer2_.id where employer0_.id=?
+2020-10-25 23:19:13.349  INFO 14228 --- [       Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-25 23:19:13.355  INFO 14228 --- [       Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-25 23:19:13.367  INFO 14228 --- [       Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-25 23:19:13.469  INFO 14228 --- [       Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.2.RELEASE)
+
+2020-10-25 23:19:16.546  INFO 14228 --- [  restartedMain] .JavaWebDevTechjobsPersistentApplication : Starting JavaWebDevTechjobsPersistentApplication on LAPTOP-TOLOOT87 with PID 14228 (C:\Users\lburk\lc101\java-web-dev-techjobs-persistent\build\classes\java\main started by lburk in C:\Users\lburk\lc101\java-web-dev-techjobs-persistent)
+2020-10-25 23:19:16.547  INFO 14228 --- [  restartedMain] .JavaWebDevTechjobsPersistentApplication : No active profile set, falling back to default profiles: default
+2020-10-25 23:19:19.471  INFO 14228 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-10-25 23:19:19.639  INFO 14228 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 157ms. Found 3 JPA repository interfaces.
+2020-10-25 23:19:22.069  INFO 14228 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-25 23:19:22.214  WARN 14228 --- [  restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-10-25 23:19:22.581  INFO 14228 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-25 23:19:22.583  INFO 14228 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-25 23:19:22.585  INFO 14228 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-10-25 23:19:22.842  INFO 14228 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-25 23:19:22.849  INFO 14228 --- [  restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6273 ms
+2020-10-25 23:19:23.496  INFO 14228 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-25 23:19:23.558  INFO 14228 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-10-25 23:19:23.613  INFO 14228 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-10-25 23:19:23.614  INFO 14228 --- [  restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-10-25 23:19:26.033  INFO 14228 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-25 23:19:26.034  INFO 14228 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-25 23:19:26.063  INFO 14228 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-25 23:19:27.115  WARN 14228 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-25 23:19:27.327  INFO 14228 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-25 23:19:27.442  INFO 14228 --- [  restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-10-25 23:19:28.167  INFO 14228 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-25 23:19:28.171  INFO 14228 --- [  restartedMain] .JavaWebDevTechjobsPersistentApplication : Started JavaWebDevTechjobsPersistentApplication in 11.964 seconds (JVM running for 554.232)
+2020-10-25 23:19:28.175  INFO 14228 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':JavaWebDevTechjobsPersistentApplication.main()'.
+> Process 'command 'C:/Program Files/Java/jdk-13.0.2/bin/java.exe'' finished with non-zero exit value -1
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 10m 19s
+3 actionable tasks: 2 executed, 1 up-to-date
+2020-10-25T23:19:58.709-0500 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+2020-10-25T23:19:58.821-0500 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2020-10-25T23:19:58.822-0500 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=85f5ca1a-ae86-472d-8ee2-f13059c757eb, currentDir=C:\Users\lburk\lc101\java-web-dev-techjobs-persistent}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:62583 to /127.0.0.1:62584]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@764f12e5 with state Busy
+2020-10-25T23:19:58.823-0500 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=85f5ca1a-ae86-472d-8ee2-f13059c757eb, currentDir=C:\Users\lburk\lc101\java-web-dev-techjobs-persistent}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:62583 to /127.0.0.1:62584]
+2020-10-25T23:19:58.823-0500 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2020-10-25T23:19:58.823-0500 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as idle, address: [9a8287d7-44d4-4e38-97d2-18601b88891f port:62583, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+2020-10-25T23:19:58.825-0500 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [9a8287d7-44d4-4e38-97d2-18601b88891f port:62583, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+2020-10-25T23:19:58.849-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2020-10-25T23:19:58.850-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2020-10-25T23:19:58.858-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2020-10-25T23:19:58.877-0500 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2020-10-25T23:19:58.878-0500 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=org.gradle.launcher.exec.BuildActionResult@325e68e5]
+2020-10-25T23:19:58.880-0500 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 20: dispatching class org.gradle.launcher.daemon.protocol.Success
+2020-10-25T23:19:58.929-0500 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=85f5ca1a-ae86-472d-8ee2-f13059c757eb, currentDir=C:\Users\lburk\lc101\java-web-dev-techjobs-persistent}
+2020-10-25T23:19:59.099-0500 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 21: received class org.gradle.launcher.daemon.protocol.CloseInput
+2020-10-25T23:19:59.101-0500 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 21: Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@62414fdd
+2020-10-25T23:19:59.102-0500 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 21: received class org.gradle.launcher.daemon.protocol.Finished
+2020-10-25T23:19:59.102-0500 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 21: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@1526c5b2
+2020-10-25T23:19:59.110-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+2020-10-25T23:19:59.110-0500 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 21: received null
+2020-10-25T23:19:59.111-0500 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 21: Received end-of-input from client.
+2020-10-25T23:19:59.112-0500 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: null
+2020-10-25T23:19:59.113-0500 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 20: stopping connection
+2020-10-25T23:19:59.125-0500 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 20: stopping connection
