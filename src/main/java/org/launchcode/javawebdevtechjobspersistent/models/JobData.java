@@ -46,19 +46,30 @@ public class JobData {
     }
 
     public static String getFieldValue(Job job, String fieldName){
-        String theValue;
+        String theValue = "";
         if (fieldName.equals("name")){
-            theValue = job.getName();
-        } else if (fieldName.equals("employer")){
-            theValue = job.getEmployer().toString();
+
+            if (job.getName() != null) {
+                theValue = job.getName();
+            }
+
+        } else if (fieldName.equals("employer")) {
+
+            if (job.getEmployer() != null) {
+                theValue = job.getEmployer().toString();
+            }
+
         } else {
-            theValue = job.getSkills().toString();
+
+            if (job.getSkills() != null) {
+                theValue = job.getSkills().toString();
+            }
         }
 
         return theValue;
     }
 
-    /**
+    /*
      * Search all Job fields for the given term.
      *
      * @param value The search term to look for.
